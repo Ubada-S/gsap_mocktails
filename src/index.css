@@ -15,6 +15,16 @@
   --font-serif: "DM Serif Text", serif;
 }
 
+/* For Chrome, Safari, Edge */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* For Firefox */
+html {
+  scrollbar-width: none; /* hides scrollbar */
+}
+
 html,
 body {
   width: 100%;
